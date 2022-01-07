@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@600&display=swap" rel="stylesheet">
+
+  <!-- styling -->
+  <link rel="stylesheet" href="./style/style.css">
+
+  <!-- icon -->
+  <script src="https://kit.fontawesome.com/21d4aa6984.js" crossorigin="anonymous"></script>
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Huddle landing page with alternating feature blocks</title>
+
+  <style>
+    .attribution { font-size: 11px; text-align: center; color: white; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body class="font-open-sans bg-very-pale-cyan">
+  <header class="px-5 md:px-10 max-w-7xl mx-auto">
+    <div class="flex justify-between items-center py-6">
+      <div>
+        <img src="./images/logo.svg" alt="" class="w-24 md:w-44">
+      </div>
+      <button class="font-bold bg-white text-xs px-6 py-1.5 md:text-lg md:px-16 md:py-3 rounded-full drop-shadow-lg">Try It Free</button>
+    </div>
+  </header>
+  <main>
+    <section class="hero mt-16 mb-10">
+      <div class="container bg-mobile md:bg-desktop bg-cover bg-no-repeat flex flex-col space-y-14 px-10 md:flex-row justify-between items-center mx-auto w-full">
+        <div class="flex flex-col justify-between items-center md:items-start text-center md:text-left space-y-6 w-full md:w-6/12">
+          <h1 class="font-poppins text-2xl md:text-5xl text-very-dark-cyan">Build The Community Your Fans Will Love</h1>
+          <p class="w-10/12">Huddle re-imagines the way we build communities. You have a voice, but so does your audience. Create connections with your users as you engage in genuine discussion.</p>
+          <button class="text-xs font-bold text-white bg-pink hover:bg-pink/70 px-14 py-3 md:py-4 rounded-full shadow-xl w-auto">Get Started For Free</button>
+        </div>
+        <img src="./images/illustration-mockups.svg" alt="" class="w-full md:w-6/12">
+      </div>
+    </section>
+    <section class="bg-white pt-16 pb-52">
+      <div class="px-5 flex flex-col items-center space-y-16 mx-auto">
+        <div class="flex flex-col space-y-10 md:flex-row-reverse items-center justify-center md:justify-start py-16 md:py-20 md:pr-7 w-full max-w-6xl shadow-xl rounded-xl">
+          <img src="./images/illustration-grow-together.svg" alt="" class="w-64 md:w-4/12 md:ml-36">
+          <div class="flex flex-col items-center md:items-start text-center md:text-left space-y-5 w-64 md:w-5/12">
+            <h1 class="font-poppins text-xl md:text-3xl text-very-dark-cyan">Grow Together</h1>
+            <p class="text-sm md:text-lg text-grayish-blue w-full">Generate meaningful discussions with your audience and build a strong, loyal community. Think of the insightful conversations you miss out on with a feedback form.</p>
+          </div>
+        </div>
+        <div class="flex flex-col space-y-10 md:flex-row items-center justify-center md:justify-end py-16 md:py-20 md:pr-7 w-full max-w-6xl shadow-xl rounded-xl">
+          <img src="./images/illustration-flowing-conversation.svg" alt="" class="w-64 md:w-4/12">
+          <div class="flex flex-col items-center md:items-start text-center md:text-left md:ml-36 space-y-5 w-64 md:w-5/12">
+            <h1 class="font-poppins text-xl md:text-3xl text-very-dark-cyan">Flowing Conversations</h1>
+            <p class="text-sm md:text-lg text-grayish-blue">You wouldn't paginate a conversation in real life, so why do it online? Our threads have just-in-time loading for a more natural flow.</p>
+          </div>
+        </div>
+        <div class="flex flex-col space-y-10 md:flex-row-reverse items-center justify-center md:justify-start py-16 md:py-20 md:pr-7 w-full max-w-6xl shadow-xl rounded-xl">
+          <img src="./images/illustration-your-users.svg" alt="" class="w-64 md:w-4/12 md:ml-36">
+          <div class="flex flex-col items-center md:items-start text-center md:text-left space-y-5 w-64 md:w-5/12">
+            <h1 class="font-poppins text-xl md:text-3xl text-very-dark-cyan">Your Users</h1>
+            <p class="text-sm md:text-lg text-grayish-blue">It takes no time at all to integrate Huddle with your app's authentication solution. This means, once signed in to your app, your users can start chatting immediately.</p>
+          </div>
+        </div>       
+      </div>
+    </section>
+  </main>
+  <footer class="bg-very-dark-cyan pb-4">
+    <div class="bg-white flex flex-col justify-center items-center text-center space-y-6 md:space-y-10 py-10 px-2.5 shadow-xl -translate-y-24 rounded-xl w-[85vw] max-w-3xl mx-auto">
+      <h1 class="font-poppins text-lg md:text-3xl">Ready To Build Your Community?</h1>
+      <button class="bg-pink hover:bg-pink/70 text-white text-xs md:text-lg px-10 md:px-20 py-3 md:py-4 rounded-full shadow-xl">Get Started For Free</button>
+    </div>
+    <div class="px-4 flex flex-col md:flex-row justify-center items-start md:justify-start max-w-6xl mx-auto">
+      <div class="-translate-y-12 flex flex-col space-y-6">
+        <img src="./images/logo.svg" alt="" class="fill-white w-60">
+        <div class="flex flex-col space-y-10 justify-between items-center md:flex-row">
+          <div class="w-full md:w-4/12 flex flex-col space-y-10">
+            <div class="text-very-pale-cyan flex justify-start items-start space-x-6">
+              <img src="./images/icon-location.svg" alt="">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+            </div>
+            <div class="text-very-pale-cyan flex justify-items-start items-start space-x-6">
+              <img src="./images/icon-phone.svg" alt="">
+              <p>+1-543-123-4567</p>
+            </div>
+            <div class="text-very-pale-cyan flex justify-items-start items-start space-x-6">
+              <img src="./images/icon-email.svg" alt="">
+              <p>example@huddle.com</p>
+            </div>
+          </div>
+          <div class="w-full md:w-4/12 text-very-pale-cyan flex flex-col space-y-3 md:space-y-0 md:flex-row justify-around items-start text-lg">
+            <div class="flex flex-col space-y-3 md:space-y-6">
+              <a href="#" class="hover:underline">About Us</a>
+              <a href="#" class="hover:underline">What We Do</a>
+              <a href="#" class="hover:underline">FAQ</a>
+            </div>
+            <div class="flex flex-col space-y-3 md:space-y-6">
+              <a href="#" class="hover:underline">Career</a>
+              <a href="#" class="hover:underline">Blog</a>
+              <a href="#" class="hover:underline">Contact Us</a>
+            </div>
+          </div>
+          <div class="w-full md:w-4/12 mt-10 md:mt-0 flex flex-col items-center md:items-start justify-center md:justify-between space-y-6 mx-auto">
+            <div class="text-very-pale-cyan flex items-center md:items-start justify-center md:justify-start w-full space-x-6">
+              <div class="flex justify-center items-center border-2 rounded-full w-10 h-10 hover:border-pink hover:text-pink">
+                <button>
+                  <i class="fab fa-facebook-f fa-lg"></i>
+                </button>
+              </div>
+              <div class="flex justify-center items-center border-2 rounded-full w-10 h-10 hover:border-pink hover:text-pink">
+                <button>
+                  <i class="fab fa-twitter fa-lg"></i>
+                </button>
+              </div>
+              <div class="flex justify-center items-center border-2 rounded-full w-10 h-10 hover:border-pink hover:text-pink">
+                <button>
+                  <i class="fab fa-instagram fa-lg"></i>
+                </button>
+              </div>
+            </div>
+            <p class="text-very-pale-cyan text-xs md:text-sm">&copy; Copyright 2018 Huddle. All rights reserved.</p>
+          </div>
+        </div>    
+      </div>
+      </div>
+
+      
+
+    <div class="mt-16">
+      <p class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+        Coded by <a href="https://github.com/wllyvx" target="_blank">Willy Fajar Ramadhan</a>.
+      </p>  
+    </div>
+  </footer>
+</body>
+</html>
